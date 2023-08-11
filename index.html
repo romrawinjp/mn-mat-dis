@@ -144,9 +144,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/paper.jpeg" alt="overview-of-the-work"/>
+      <img src="static/images/graphical_abstract.jpg" alt="overview-of-the-work"/>
       <h2 class="subtitle has-text-centered">
-        There is the overview of our work. We purpose the method of modern machine learning model agiast the traditional method as follows.
+        This figure is the overview of our work. We purpose a novel method combinding between materials simulation and machine learning to accelerate the process of microneedle materials discovery.
       </h2>
     </div>
   </div>
@@ -161,7 +161,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            To commercialize the micro-nano needle as a drug delivery or biosensing platform, it is essential to validate the effectiveness and reliability of the piercing process for each needle material composition. However, proper microneedle material selection and fabrication requires sophisticated and costly semiconductor technology. This work aims to accelerate the material selection process of microneedles, focusing on polymeric materials due to their biocompatibility and flexibility. In this study, simulations of microneedles with various materials are used to generate training and testing data for a physics-informed machine learning model to predict von Mises stress distribution on microneedles of new materials. The training dataset is comprised of results from fifteen different materials. Different machine learning models are used, such as traditional tree-based, neural network, point cloud network, and graph-based models. Random-index selection is utilized to reduce the required number of data points by an order of magnitude. The graph attention network model is the best-performing model for predicting the von Mises stress of microneedles, with a mean square error of 8.3 × 10^(-5) MPa. The resulting model only requires 7 milliseconds to evaluate a new microneedle material, significantly faster than practical fabrication in a laboratory.  The models also successfully handle data with a decimal scale obtained from microstructure simulations and predict physical behavior such as stress curves.
           </p>
         </div>
       </div>
@@ -269,11 +269,12 @@
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
-@article{xxx,
+@article{chumpu2023mndis,
   author = {Romrawin Chumpu, Chun-Lin Chu, Tanyakarn Treeratanaphitak, Sanparith Marukatat, Shu-Han Hsu},
   doi = {xx},
   month = {xx},
   title = {Physics-informed graph neural networks accelerated microneedle simulation towards micro-scale material discovery},
+  journal = {Engineering Applications of Artificial Intelligence},
   url = {https://github.com/romrawinjp/mn-mat-dis.git},
   year = {2023}
 }
