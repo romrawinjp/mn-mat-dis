@@ -1,4 +1,10 @@
-# Academic Project Page for Physics-informed graph neural networks accelerating microneedle simulations towards novelty of micro-nano scale materials discovery
+# Project page for "Physics-informed graph neural networks accelerating microneedle simulations towards novelty of micro-nano scale materials discovery" as a part of Romrawin Chumpu's master thesis and publication.
+
+TL;DR - We purpose a novel method combinding betwteen materials simulation and machine learning to accelerate materials discovery of microneedles. Our work trained with physics-informed dataset. The best model result is graph attention networks (GAT). 
+
+## Dataset Instruction
+
+## Code Instruction
 
 ## Citation
 ```
