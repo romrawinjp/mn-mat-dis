@@ -14,7 +14,7 @@ TL;DR - We purpose a novel method combinding betwteen materials simulation and m
   month = {xx},
   title = {Physics-informed graph neural networks accelerated microneedle simulation towards micro-scale material discovery},
   journal = {Engineering Applications of Artificial Intelligence},
-  url = {https://github.com/romrawinjp/mn-mat-dis.git},
+  url = {https://github.com/romrawinjp/mn-mat-dis},
   year = {2023}
 }
 ```
