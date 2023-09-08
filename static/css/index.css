@@ -2,7 +2,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-
 .footer .icon-link {
     font-size: 25px;
     color: #000;
@@ -28,12 +27,12 @@ body {
 }
 
 
-.publication-title {
-}
+/* .publication-title {
+  font-size: 20px;
+} */
 
 .publication-banner {
   max-height: parent;
-
 }
 
 .publication-banner video {
